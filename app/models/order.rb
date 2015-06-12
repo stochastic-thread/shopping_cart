@@ -9,7 +9,7 @@ class Order < ActiveRecord::Base
   end
 
 private
-  def set_order
+  def set_order_status
     self.order_status_id = 1
   end
 
